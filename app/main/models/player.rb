@@ -10,4 +10,8 @@ class Player < Volt::Model
   def increment_points
     points += 1
   end
+
+  def add_points(number)
+    points += number
+  end
 end

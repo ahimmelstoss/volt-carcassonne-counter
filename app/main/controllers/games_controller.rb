@@ -2,11 +2,12 @@ class GamesController < Volt::ModelController
   model :game
 
   # shows all games and their players in order by date
-  def index
+  def stats
+    
   end
 
-  # shows current game (default route?)
-  def show
+  # current game
+  def game
   end
 
   # makes a new game (post request)
@@ -15,6 +16,10 @@ class GamesController < Volt::ModelController
 
   # resets game, redircting to the new path
   def reset
+  end
+
+  # tallies game and declares who wins by how many points
+  def game_over
   end
 
 end

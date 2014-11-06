@@ -1,1 +1,44 @@
-// Place your apps css here
+.container {
+  margin: 0 !important;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  -ms-touch-action: none !important;
+}
+
+.player {
+  width: 100vw;
+  height: 50vh;
+  line-height: 50vh;
+  border-radius: 7px;
+  position: relative;
+}
+
+.v-center {
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+span {
+  font-size: 18em; 
+}
+
+.dropdown {
+  position: fixed !important;
+  z-index: 2;
+}
+
+#counter0 {
+  -webkit-transform:rotate(-180deg);
+  -moz-transform:rotate(-180deg); 
+  -o-transform:rotate(-180deg); 
+  transform:rotate(-180deg);
+}

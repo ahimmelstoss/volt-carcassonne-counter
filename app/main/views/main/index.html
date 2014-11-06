@@ -1,6 +1,17 @@
 <:Title>
-  Home
+  Carcassonne Counter
 
 <:Body>
-  <h1>Home</h1>
+
+  <div class="jumbotron">
+    <h1>Welcome to Carcasson Counter</h1>
+    <h2>What would you like to do?</h2>
+    <form action="/stats" method="get">
+        <input type="submit" class="btn btn-success btn-lg" value="Stats">
+    </form><br>
+    <form action="/new" method="post">
+        <input type="submit" class="btn btn-success btn-lg" value="New Game">
+    </form>
+  </div>
+
 
